@@ -1,0 +1,5 @@
+[phases.setup]
+nixPkgs = ['prometheus-redis-exporter']
+
+[start]
+cmd = 'redis_exporter'
